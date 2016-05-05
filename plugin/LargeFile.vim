@@ -125,7 +125,7 @@ fun! s:Unlarge()
   if exists("b:LF_bhkeep") |let &l:bh  = b:LF_bhkeep |unlet b:LF_bhkeep |endif
   if exists("s:LF_bkkeep") |let &l:bk  = s:LF_bkkeep |unlet s:LF_bkkeep |endif
   if exists("b:LF_cptkeep")|let &cpt   = b:LF_cptkeep|unlet b:LF_cptkeep|endif
-  if exists("s:LF_eikeep") |let &ei    = b:LF_eikeep |unlet b:LF_eikeep |endif
+  if exists("s:LF_eikeep") |let &ei    = s:LF_eikeep |unlet s:LF_eikeep |endif
   if exists("b:LF_fdmkeep")|let &l:fdm = b:LF_fdmkeep|unlet b:LF_fdmkeep|endif
   if exists("b:LF_fenkeep")|let &l:fen = b:LF_fenkeep|unlet b:LF_fenkeep|endif
   if exists("b:LF_swfkeep")|let &l:swf = b:LF_swfkeep|unlet b:LF_swfkeep|endif
